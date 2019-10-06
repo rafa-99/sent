@@ -516,8 +516,6 @@ advance(const Arg *arg)
 	}
 }
 
-void
-
 void toggle_cursor(const Arg *arg)
 {
 	Cursor cursor;
@@ -542,6 +540,7 @@ void toggle_cursor(const Arg *arg)
 	cursor_visible ^= 1;
 }
 
+void
 quit(const Arg *arg)
 {
 	running = 0;
